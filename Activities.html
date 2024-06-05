@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Activities</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <style>
+
+/* Style for the container */
+.scroll-container {
+    width: 70%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 30%;
+  }
+
+  /* Style for each item in the list */
+  .item {
+    margin: 10px;
+    text-align: center;
+    position: relative; /* Added position relative for absolute positioning */
+  }
+
+  /* Style for the image */
+  .item img {
+    width: 700px; /* Adjust image size here */
+    height: 500px;  /* Adjust image size here */
+    object-fit: cover;
+    border-radius: 10px; /* Added border radius */
+  }
+
+  /* Style for the text */
+  .item p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: white; /* Text color */
+    background-color: rgba(0, 0, 0, 0.7); /* Background color */
+    padding: 50px; /* Padding */
+    position: absolute; /* Position absolutely */
+    bottom: -13px; /* Align to bottom */
+    left: 0; /* Align to left */
+    right: 0; /* Align to right */
+    display: none; /* Initially hide text */
+  }
+
+  /* Style for the text */
+  
+
+  /* Hover effect to show text */
+  .item:hover p {
+    display: block; /* Show text on hover */
+  }
+
+  .button{
+      font-size: 20px;
+  }
+
+  
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="./Main.html" class="w3-bar-item w3-button"><b>Tour</b> Guide</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="./SignIn.html" class="w3-bar-item w3-button">Sign-in</a>
+      <a href="./SignUp.html" class="w3-bar-item w3-button">Sign-up</a>
+      <a href="#about" class="w3-bar-item w3-button">About </a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+    <video class="w3-image" autoplay loop muted  alt="Architecture" width="1500" height="800">
+        <source src="videos/main vid.mp4" type="video/mp4">
+        </video>
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"></span> <span class="w3-hide-small w3-text-light-grey"  style="font-size: 80px; font-family:fantasy;">Fun Activities in Masbate</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Activity Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 style="text-align: center;" class="w3-border-bottom w3-border-light-grey w3-padding-16 font-weight: bold;">Things to do in Masbate</h3>
+  </div>
+
+  <br>
+  <div class="scroll-container">
+    <div class="item">
+      
+        
+
+
+    </div>
+    <div class="item">
+      <img src="https://images.summitmedia-digital.com/spotph/images/2019/03/15/masbate-manta-1552631461.jpg" alt="Scuba">
+      <p>Scuba Diving |
+        <i class="fa fa-plane"></i> Deep Dive Center |
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">BOOK</button></a>
+      </p>
+    </div>
+    <div class="item">
+      <img src="https://ik.imagekit.io/tvlk/blog/2023/07/HArfZDiN-shutterstock_2164673897.jpg" alt="Kayaking" >
+      
+      <p>Kayaking |  
+        <i class="fa fa-plane"></i> Big Fins Dive Center |
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">BOOK</button></a>
+        
+      </p>
+      
+     
+    </div>
+    <div class="item">
+      <img src="https://images.summitmedia-digital.com/spotph/images/2019/03/15/masbate-buntod-1552631565.jpg" alt="Canoeing" >
+      <p>Canoeing |
+        <i class="fa fa-plane"></i> Big Fins Dive Center |
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">BOOK</button></a>
+      </p>
+    </div>
+    <div class="item">
+      <img src="https://assets-global.website-files.com/5e182252b1025a15c98521cb/5fb5dc83d9edc93e955cafa9_30mins_with-Ariana_Agustines-gonzalo-araujo-lamave-opengraph.jpg" alt="Shark" >
+      <p>Shark Diving |
+        <i class="fa fa-plane"></i> Ticao Island Resort |
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">BOOK</button></a>
+      </p>
+    </div>
+    <div class="item">
+      <img class="image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/21/52/32/bautismo.jpg?w=500&h=500&s=1" alt="Image 1">
+      <p>Snorkelling |
+        <i class="fa fa-plane"></i> Big Fins Dive Center |
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">BOOK</button></a>
+      </p>
+    </div>
+    <!-- Add more items as needed -->
+  </div>
+  
+
+  <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<br>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about" style="background-color: rgb(232, 231, 230);">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 font-weight: bold;">About</h3>
+    <p>From Mayon Volcano in Albay to the Caramoan Islands of Camarines Sur, the Bicol region is best known for its breathtaking sceneries. Now that travel restrictions are easing up, this destination (which is only an hour’s plane ride away, or 8 to 10 hours if you’re driving or taking the bus from Manila) can offer you beautiful beaches, mountains, and other scenic spots to visit and extreme adventures to try.
+    </p>
+  </div>
+
+  <br>
+  <!--Review Section-->
+
+
+  
+  <!-- Image of location/map -->
+
+
+
+  <!-- End page content -->
+  </div>
+
+
+  <!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16" style="height: 250px;">
+  <div>
+  <div style="float: left;  height: 100px; width: 25;">
+    <img src="images/MasbateLogo.png" alt="masbatelogo" style="width: 200px; height: 200px;">
+    <p style="margin-left: 75px ; font-size: 10px;">© Copyright 2024 Jonathan Dionisio All rights reserved</p>
+  </div>
+  <div style=" float: left; margin-left: 150px; height: 100px; width: 50; " >
+    <h3 style="color: rgb(255, 255, 255); font-weight: bold; ">Dev's Contact:</h3>
+    <table>
+      <tr >
+        <th style="margin-right: 50px;">
+          <i class="fa fa-mobile" style="font-size:35px; color: aliceblue;">  </i>
+        </th>
+       <br>
+        <th>
+          <span style="  font-size: 10px; margin-left: 10px;">  0969694201</span>
+        </th>
+      </tr>
+    </table>
+
+    <table>
+      <tr >
+        <th style="margin-right: 50px;">
+          <i class="fa fa-envelope" style="font-size:24px; color: aliceblue;">  </i>
+        </th>
+       <br>
+        <th>
+          <span style="  font-size: 10px; margin-left: 10px;">  JonathanDionisio@gmail.com</span>
+        </th>
+      </tr>
+    </table>
+
+    <table>
+      <tr >
+        <th style="margin-right: 50px;">
+          <i class="fa fa-address-card" style="font-size:24px; color: aliceblue;">  </i>
+        </th>
+       <br>
+        <th>
+          <span style="  font-size: 10px; margin-left: 10px;"> @jonathan_D</span>
+        </th>
+      </tr>
+    </table>
+  </div>
+  
+ 
+  <div style="float: right; height: 100px; width: 25;" >
+    <h3 style="color: rgb(255, 255, 255); font-weight: bold; margin-right: 100px;">Who is the Developer?</h3>
+    <p style="margin-right: 100px; font-size: 10px;">
+      The name of the developer is Jonathan, 
+      <br>He's 21 years old IT student from National University
+      <br> Currently studying several subjects and creating
+      <br> several Projects like Applications, this website
+      <br> is just a midterm project that He created for the 
+      <br> sake of his grades.
+    </p>
+  </div>
+</div>
+</footer>
+
+</body>
+</html>

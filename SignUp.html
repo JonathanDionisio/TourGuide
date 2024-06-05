@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SignUp</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <style>
+
+/* Style for the container */
+.scroll-container {
+    width: 70%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 30%;
+  }
+
+  /* Style for each item in the list */
+  .item {
+    margin: 10px;
+    text-align: center;
+    position: relative; /* Added position relative for absolute positioning */
+  }
+
+  /* Style for the image */
+  .item img {
+    width: 700px; /* Adjust image size here */
+    height: 500px;  /* Adjust image size here */
+    object-fit: cover;
+    border-radius: 10px; /* Added border radius */
+  }
+
+  /* Style for the text */
+  .item p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: white; /* Text color */
+    background-color: rgba(0, 0, 0, 0.7); /* Background color */
+    padding: 50px; /* Padding */
+    position: absolute; /* Position absolutely */
+    bottom: -13px; /* Align to bottom */
+    left: 0; /* Align to left */
+    right: 0; /* Align to right */
+    display: none; /* Initially hide text */
+  }
+
+  /* Style for the text */
+  
+
+  /* Hover effect to show text */
+  .item:hover p {
+    display: block; /* Show text on hover */
+  }
+
+  .button{
+      font-size: 20px;
+  }
+
+  
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="./Main.html" class="w3-bar-item w3-button"><b>Tour</b> Guide</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="./SignIn.html" class="w3-bar-item w3-button">Sign-in</a>
+      <a href="./SignUp.html" class="w3-bar-item w3-button">Sign-up</a>
+      <a href="#about" class="w3-bar-item w3-button">About </a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+    <video class="w3-image" autoplay loop muted  alt="Architecture" width="1500" height="800">
+        <source src="videos/main vid.mp4" type="video/mp4">
+        </video>
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"> <span class="w3-hide-small w3-text-light-grey"  style="font-size: 20px; font-family:fantasy;">
+        <div class="w3-container w3-padding-32" id="contact" style="position: relative; text-align: center;position: relative; text-align: center; ">
+            
+            
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Hope you enjoyed Masbate!</h3>
+            <p>Lets get in touch and talk about your next Masbate experience.</p>
+            <form action="/action_page.php" target="_blank">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+              <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+              <input class="w3-input w3-section w3-border" type="password" placeholder="password" required name="password">
+             
+              <input class="w3-input w3-section w3-border"   type="date" id="birthday" name="birthday">
+              <button class="w3-button w3-black w3-section" type="submit">
+                SIGN UP
+              
+              </button>
+            </form>
+          </div>
+        
+      
+    
+    
+    </span></h1>
+  </div>
+</header>
+
+        <!-- Page content -->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<br>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about" style="background-color: rgb(232, 231, 230);">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 font-weight: bold;">About</h3>
+    <p>This website is created to show people the beauty of a province like Masbate through website. This website includes several features
+      to show the several things you can do in masbate, how are you going to enjoy masbate, this website is all about Masbate's hidden gem.
+      It encourage people to admire the beauty of nature in masbate and how you can enjoy every bit of it. People show in the website were able 
+      to share their fun experience.
+    </p>
+  </div>
+
+  <br>
+  <!--Review Section-->
+
+
+  
+  <!-- Image of location/map -->
+
+
+
+  <!-- End page content -->
+  </div>
+
+
+  <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16" style="height: 250px;">
+  <div>
+  <div style="float: left;  height: 100px; width: 25;">
+    <img src="images/MasbateLogo.png" alt="masbatelogo" style="width: 200px; height: 200px;">
+    <p style="margin-left: 75px ; font-size: 10px;">© Copyright 2024 Jonathan Dionisio All rights reserved</p>
+  </div>
+  <div style=" float: left; margin-left: 150px; height: 100px; width: 50; " >
+    <h3 style="color: rgb(255, 255, 255); font-weight: bold; ">Dev's Contact:</h3>
+    <table>
+      <tr >
+        <th style="margin-right: 50px;">
+          <i class="fa fa-mobile" style="font-size:35px; color: aliceblue;">  </i>
+        </th>
+       <br>
+        <th>
+          <span style="  font-size: 10px; margin-left: 10px;">  0969694201</span>
+        </th>
+      </tr>
+    </table>
+
+    <table>
+      <tr >
+        <th style="margin-right: 50px;">
+          <i class="fa fa-envelope" style="font-size:24px; color: aliceblue;">  </i>
+        </th>
+       <br>
+        <th>
+          <span style="  font-size: 10px; margin-left: 10px;">  JonathanDionisio@gmail.com</span>
+        </th>
+      </tr>
+    </table>
+
+    <table>
+      <tr >
+        <th style="margin-right: 50px;">
+          <i class="fa fa-address-card" style="font-size:24px; color: aliceblue;">  </i>
+        </th>
+       <br>
+        <th>
+          <span style="  font-size: 10px; margin-left: 10px;"> @jonathan_D</span>
+        </th>
+      </tr>
+    </table>
+  </div>
+  
+ 
+  <div style="float: right; height: 100px; width: 25;" >
+    <h3 style="color: rgb(255, 255, 255); font-weight: bold; margin-right: 100px;">Who is the Developer?</h3>
+    <p style="margin-right: 100px; font-size: 10px;">
+      The name of the developer is Jonathan, 
+      <br>He's 21 years old IT student from National University
+      <br> Currently studying several subjects and creating
+      <br> several Projects like Applications, this website
+      <br> is just a midterm project that He created for the 
+      <br> sake of his grades.
+    </p>
+  </div>
+</div>
+</footer>
+
+</body>
+</html>

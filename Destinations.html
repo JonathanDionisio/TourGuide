@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Destinations</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <style>
+
+/* Style for the container */
+.scroll-container {
+    width: 70%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 30%;
+  }
+
+  /* Style for each item in the list */
+  .item {
+    margin: 10px;
+    text-align: center;
+    position: relative; /* Added position relative for absolute positioning */
+  }
+
+  /* Style for the image */
+  .item img {
+    width: 700px; /* Adjust image size here */
+    height: 500px;  /* Adjust image size here */
+    object-fit: cover;
+    border-radius: 10px; /* Added border radius */
+  }
+
+  /* Style for the text */
+  .item p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: white; /* Text color */
+    background-color: rgba(0, 0, 0, 0.7); /* Background color */
+    padding: 50px; /* Padding */
+    position: absolute; /* Position absolutely */
+    bottom: -13px; /* Align to bottom */
+    left: 0; /* Align to left */
+    right: 0; /* Align to right */
+    display: none; /* Initially hide text */
+  }
+
+  /* Style for the text */
+  
+
+  /* Hover effect to show text */
+  .item:hover p {
+    display: block; /* Show text on hover */
+  }
+
+  .button{
+      font-size: 20px;
+  }
+
+  
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="./Main.html" class="w3-bar-item w3-button"><b>Tour</b> Guide</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="./SignIn.html" class="w3-bar-item w3-button">Sign-in</a>
+      <a href="./SignUp.html" class="w3-bar-item w3-button">Sign-up</a>
+      <a href="#about" class="w3-bar-item w3-button">About </a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+    <video class="w3-image" autoplay loop muted  alt="Architecture" width="1500" height="800">
+        <source src="videos/main vid.mp4" type="video/mp4">
+        </video>
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"></span> <span class="w3-hide-small w3-text-light-grey"  style="font-size: 80px; font-family:fantasy;">Fascinating Places in Masbate</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Activity Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 style="text-align: center;" class="w3-border-bottom w3-border-light-grey w3-padding-16 font-weight: bold;">Things to do in Masbate</h3>
+  </div>
+
+  <br>
+  <div class="scroll-container">
+    <div class="item">
+      
+        
+
+
+    </div>
+    <div class="item">
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/67/58/d7/photo0jpg.jpg?w=1000&h=-1&s=1" alt="Scuba">
+      <p>Animasola Island |
+        <i class="fa fa-plane"></i> 
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">BOOK</button></a>
+      </p>
+    </div>
+    <div class="item">
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/71/94/b8/sunset.jpg?w=1000&h=800&s=1" alt="Kayaking" >
+      
+      <p>Sumbrero Island |  
+        <i class="fa fa-plane"></i> 
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">BOOK</button></a>
+        
+      </p>
+      
+     
+    </div>
+    <div class="item">
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/00/ed/42/tinalisayan-islet-and.jpg?w=1000&h=800&s=1" alt="Canoeing" >
+      <p>Tilasiyan Island |
+        <i class="fa fa-plane"></i> 
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">BOOK</button></a>
+      </p>
+    </div>
+    <div class="item">
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ed/df/f1/view-from-sea.jpg?w=1000&h=800&s=1" alt="Shark" >
+      <p>Nagarao Island |
+        <i class="fa fa-plane"></i> 
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">BOOK</button></a>
+      </p>
+    </div>
+    <div class="item">
+      <img class="image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/bf/20/46/borobangcaso-islet-and.jpg?w=1000&h=800&s=1" alt="Image 1">
+      <p>Borobangcaso Island |
+        <i class="fa fa-plane"></i> 
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">BOOK</button></a>
+      </p>
+    </div>
+
+    <div class="item">
+      <img class="image" src="https://img.truvvle.com/?src=aHR0cHM6Ly9pbWFnZXMuaGl2ZS5ibG9nL3AvMlNucHpuejdyd2lFdm0zQld2NFdWNlVRWllYUkZwOUNKdTd6Rnc4TXo5UTFueGY2WlIzNndSZ0dTR3ZHWk5LU21SNkpYSHRWQWVqTUY4U0JSZGJLbVE1dkJZOFZwdm5RckVpd0ZGRFJqZnI4bXhxMTR0UGlHd2NYQ2o2TnN1NG9uOGFVVFF3cUs2UnRDRjZ4YkJQRkpkbjVIbVduaUVNRnZ5RFNXYnZNbkRaWTlqd1VhVjZ2b29xd1BQelNkVVBpY3V5NXBvUTNSMVBXNXZxQmFScS8_Zm9ybWF0PW1hdGNoJm1vZGU9Zml0&width=1920" alt="Image 1">
+      <p>Bat-ongan Cave |
+        <i class="fa fa-plane"></i> 
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">BOOK</button></a>
+      </p>
+    </div>
+    <!-- Add more items as needed -->
+  </div>
+  
+
+  <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<br>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about" style="background-color: rgb(232, 231, 230);">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 font-weight: bold;">About</h3>
+    <p>From Mayon Volcano in Albay to the Caramoan Islands of Camarines Sur, the Bicol region is best known for its breathtaking sceneries. Now that travel restrictions are easing up, this destination (which is only an hour’s plane ride away, or 8 to 10 hours if you’re driving or taking the bus from Manila) can offer you beautiful beaches, mountains, and other scenic spots to visit and extreme adventures to try.
+    </p>
+  </div>
+
+  <br>
+  <!--Review Section-->
+
+
+  
+  <!-- Image of location/map -->
+
+
+
+  <!-- End page content -->
+  </div>
+
+
+  <!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16" style="height: 250px;">
+  <div>
+  <div style="float: left;  height: 100px; width: 25;">
+    <img src="images/MasbateLogo.png" alt="masbatelogo" style="width: 200px; height: 200px;">
+    <p style="margin-left: 75px ; font-size: 10px;">© Copyright 2024 Jonathan Dionisio All rights reserved</p>
+  </div>
+  <div style=" float: left; margin-left: 150px; height: 100px; width: 50; " >
+    <h3 style="color: rgb(255, 255, 255); font-weight: bold; ">Dev's Contact:</h3>
+    <table>
+      <tr >
+        <th style="margin-right: 50px;">
+          <i class="fa fa-mobile" style="font-size:35px; color: aliceblue;">  </i>
+        </th>
+       <br>
+        <th>
+          <span style="  font-size: 10px; margin-left: 10px;">  0969694201</span>
+        </th>
+      </tr>
+    </table>
+
+    <table>
+      <tr >
+        <th style="margin-right: 50px;">
+          <i class="fa fa-envelope" style="font-size:24px; color: aliceblue;">  </i>
+        </th>
+       <br>
+        <th>
+          <span style="  font-size: 10px; margin-left: 10px;">  JonathanDionisio@gmail.com</span>
+        </th>
+      </tr>
+    </table>
+
+    <table>
+      <tr >
+        <th style="margin-right: 50px;">
+          <i class="fa fa-address-card" style="font-size:24px; color: aliceblue;">  </i>
+        </th>
+       <br>
+        <th>
+          <span style="  font-size: 10px; margin-left: 10px;"> @jonathan_D</span>
+        </th>
+      </tr>
+    </table>
+  </div>
+  
+ 
+  <div style="float: right; height: 100px; width: 25;" >
+    <h3 style="color: rgb(255, 255, 255); font-weight: bold; margin-right: 100px;">Who is the Developer?</h3>
+    <p style="margin-right: 100px; font-size: 10px;">
+      The name of the developer is Jonathan, 
+      <br>He's 21 years old IT student from National University
+      <br> Currently studying several subjects and creating
+      <br> several Projects like Applications, this website
+      <br> is just a midterm project that He created for the 
+      <br> sake of his grades.
+    </p>
+  </div>
+</div>
+</footer>
+
+</body>
+</html>

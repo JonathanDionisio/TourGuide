@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Delicacies</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <style>
+
+/* Style for the container */
+.scroll-container {
+    width: 70%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 30%;
+  }
+
+  /* Style for each item in the list */
+  .item {
+    margin: 10px;
+    text-align: center;
+    position: relative; /* Added position relative for absolute positioning */
+  }
+
+  /* Style for the image */
+  .item img {
+    width: 700px; /* Adjust image size here */
+    height: 500px;  /* Adjust image size here */
+    object-fit: cover;
+    border-radius: 10px; /* Added border radius */
+  }
+
+  /* Style for the text */
+  .item p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: white; /* Text color */
+    background-color: rgba(0, 0, 0, 0.7); /* Background color */
+    padding: 50px; /* Padding */
+    position: absolute; /* Position absolutely */
+    bottom: -13px; /* Align to bottom */
+    left: 0; /* Align to left */
+    right: 0; /* Align to right */
+    display: none; /* Initially hide text */
+  }
+
+  /* Style for the text */
+  
+
+  /* Hover effect to show text */
+  .item:hover p {
+    display: block; /* Show text on hover */
+  }
+
+  .button{
+      font-size: 20px;
+  }
+
+  
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="./Main.html" class="w3-bar-item w3-button"><b>Tour</b> Guide</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="./SignIn.html" class="w3-bar-item w3-button">Sign-in</a>
+      <a href="./SignUp.html" class="w3-bar-item w3-button">Sign-up</a>
+      <a href="#about" class="w3-bar-item w3-button">About </a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+    <video class="w3-image" autoplay loop muted  alt="Architecture" width="1500" height="800">
+        <source src="videos/main vid.mp4" type="video/mp4">
+        </video>
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"></span> <span class="w3-hide-small w3-text-light-grey"  style="font-size: 80px; font-family:fantasy;">Delicacies in Masbate</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Activity Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 style="text-align: center;"  class="w3-border-bottom w3-border-light-grey w3-padding-16 font-weight: bold;">MAIN DISH</h3>
+  </div>
+
+  <br>
+  <div class="scroll-container">
+    <div class="item">
+      
+        
+
+
+    </div>
+    <div class="item">
+      <img src="https://www.atbp.ph/wp-content/uploads/2016/12/img_5852a74bbf1a4.jpg" >
+      <p>Ginataang Bago.<br>
+        Aside from Tagbilaran, Masbate is also a
+        <br> place where bago plants thrive. <br>
+        In some places, it is also called, lumbay.
+        <br>
+        
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">ORDER NOW</button></a>
+      </p>
+    </div>
+    <div class="item">
+      <img src="https://i.ytimg.com/vi/Xn3kfOmOEWU/hqdefault.jpg"  >
+      
+      <p> Ginataang Kolo. <br>
+        You might know jackfruit with coconut juice, <br>
+        but most of us haven’t heard of using its seed as ginataan.<br>
+         Oddly enough, it tastes just like peanuts!<br> 
+         Boiling the seed may take time, but it’s worth it <br>
+          just make sure to boil the seeds until <br>
+          it completely softens before putting in the gata. <br>
+          Season with salt.<br>
+
+        
+          <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">ORDER NOW</button></a>
+        
+      </p>
+      
+     
+    </div>
+    <div class="item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR_2iURBDSzr4T10qGGOkU93izlSxmG-EvrW4pIF7KZw&s" alt="Canoeing" >
+      <p>Sinangkutsa sa manok.<br>
+        The cooking process is similar to chicken curry, <br>
+        only we use something sour, like tamarind or batuan <br>
+        fruit, instead of a curry mix.<br>
+        We also put saba and wild ube for a thicker sauce.<br>
+        Just imagine sinigang na manok, with coconut juice as<br>
+         the soup and that’s sinangkutsa. Swear you’ll <br>
+         crave for extra rice!<br>
+        
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">ORDER NOW</button></a>
+      </p>
+    </div>
+    
+    <!-- Add more items as needed -->
+  </div>
+  
+
+  <br>
+
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 style="text-align: center;" class="w3-border-bottom w3-border-light-grey w3-padding-16 font-weight: bold;">APPETIZER</h3>
+  </div>
+
+  <br>
+  <div class="scroll-container">
+    <div class="item">
+      
+        
+
+
+    </div>
+    <div class="item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFZ9v8icKhHxjE0CzqykJhv0B5OmL-SzWjc3-nLToYvQ&s" alt="Scuba">
+      <p>Ginataang Kurot. <br>
+        Kurot or wild yam with coconut juice is can<br>
+         also be served for breakfast, merienda, or as a snack.<br>
+          However, the preparation of kurot itself is not easy,<br>
+         because of its poisonous nature, so it’s best to buy<br>
+          directly from vendors.<br>
+       
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">ORDER NOW</button></a>
+      </p>
+    </div>
+    <div class="item">
+      <img src="https://i.ytimg.com/vi/hxNfVjDypVY/maxresdefault.jpg" alt="Kayaking" >
+      
+      <p>Pinakul-aw na daing<br>
+        Tired of daing (dried fish) for breakfast<br>
+        ? You can prepare it for lunch or dinner by cooking pinakul-aw.<br>
+                  Pinakul-aw is simply ginataang daing with malunggay. <br>
+                  The cooking preparation is really easy-first,<br>
+                   bring coconut juice with onions and garlic to boil, <br>
+                   then add the dried fish, pepper, chili and malunggay.<br>
+                   Since it’s already salty, there’s no need for seasoning.<br>
+        
+                   <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">ORDER NOW</button></a>
+        
+      </p>
+      
+     
+    </div>
+    <div class="item">
+      <img src="https://i0.wp.com/www.angsarap.net/wp-content/uploads/2018/09/Kandingga-Wide.jpg?ssl=1" alt="Canoeing" >
+      <p>Kandingga. <br>
+        If you know bopis (sautéed pork/beef lungs and heart),<br>
+         it’s easier to relate to this dish, because only the<br>
+          coconut juice makes kandingga different.<br>
+                   For Masbatenos, it’s prepared extra spicy.<br>
+        
+                   <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">ORDER NOW</button></a>
+      </p>
+    </div>
+    <!-- Add more items as needed -->
+  </div>
+  
+
+  <br>
+
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 style="text-align: center;" class="w3-border-bottom w3-border-light-grey w3-padding-16 font-weight: bold;">DESSERT</h3>
+  </div>
+
+  <br>
+  <div class="scroll-container">
+    <div class="item">
+      
+        
+
+
+    </div>
+    <div class="item">
+      <img src="https://i.ytimg.com/vi/Tzwat8qTTIY/maxresdefault.jpg"  >
+      
+      <p> Ginataang Kolo. <br>
+        Breadfruit is noticeably similar in appearance to jackfruit.<br>
+         However, jackfruit with coconut juice is served savoury<br>
+        as entree, while breadfruit with coconut juice<br>
+         is served sweet, as merienda or snack. <br>
+        
+         <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">ORDER NOW</button></a>
+        
+      </p>
+      
+     
+    </div>
+    <div class="item">
+      <img src="https://images.squarespace-cdn.com/content/v1/58aef23286e6c0212303c151/1525623583421-33HUOLN9D9XAJT7F47ZE/DSC_6217.jpg">
+      <p>Carmelado. <br>
+        Carmelado is one of the best dessert from the Home<br>
+         of the rodeo philippnes.Carmelado is a milk candy traditionally<br>
+                   made carabao’s milk and sugar. It is  masbate’s version<br>
+                    of pastillas de leche,but are more solid.<br>
+        
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">ORDER NOW</button></a>
+      </p>
+    </div>
+    <div class="item">
+      <img src="https://pamughaton.wordpress.com/wp-content/uploads/2011/01/dulsi1021.jpg?w=584"  >
+      <p>Molido. <br>
+        Pili (Canarium ovatum), a fruit-bearing tree endemic <br>
+        to the Philippines Molido, a Spanish word that means <br>
+        ground or milled, is a dessert made from sweet potato <br>
+        and/or pili nuts, although  it is the sweet potato that<br>
+         is more common in the markets of Masbate.<br>
+          There’s a variety of molido where it is sprinkled with<br>
+           coconut bits and crushed pili nuts that is more popular <br>
+           to locals and tourists looking for a sweet treat.<br>
+        
+        <a href="./SignIn.html"><button   class="w3-button w3-black w3-section" type="submit">ORDER NOW</button></a>
+      </p>
+    </div>
+   
+    <!-- Add more items as needed -->
+  </div>
+  
+
+  <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<br>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about" style="background-color: rgb(232, 231, 230);">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 font-weight: bold;">About</h3>
+    <p>The province is known for its cattle industry, which produces high-quality beef and dairy products. The waters surrounding Masbate are also rich in various species of fish and other seafood, which are exported to other parts of the country. In terms of transportation, Masbate is accessible by air and sea.
+    </p>
+  </div>
+
+  <br>
+  <!--Review Section-->
+
+
+  
+  <!-- Image of location/map -->
+
+
+
+  <!-- End page content -->
+  </div>
+
+
+  <!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16" style="height: 250px;">
+  <div>
+  <div style="float: left;  height: 100px; width: 25;">
+    <img src="images/MasbateLogo.png" alt="masbatelogo" style="width: 200px; height: 200px;">
+    <p style="margin-left: 75px ; font-size: 10px;">© Copyright 2024 Jonathan Dionisio All rights reserved</p>
+  </div>
+  <div style=" float: left; margin-left: 150px; height: 100px; width: 50; " >
+    <h3 style="color: rgb(255, 255, 255); font-weight: bold; ">Dev's Contact:</h3>
+    <table>
+      <tr >
+        <th style="margin-right: 50px;">
+          <i class="fa fa-mobile" style="font-size:35px; color: aliceblue;">  </i>
+        </th>
+       <br>
+        <th>
+          <span style="  font-size: 10px; margin-left: 10px;">  0969694201</span>
+        </th>
+      </tr>
+    </table>
+
+    <table>
+      <tr >
+        <th style="margin-right: 50px;">
+          <i class="fa fa-envelope" style="font-size:24px; color: aliceblue;">  </i>
+        </th>
+       <br>
+        <th>
+          <span style="  font-size: 10px; margin-left: 10px;">  JonathanDionisio@gmail.com</span>
+        </th>
+      </tr>
+    </table>
+
+    <table>
+      <tr >
+        <th style="margin-right: 50px;">
+          <i class="fa fa-address-card" style="font-size:24px; color: aliceblue;">  </i>
+        </th>
+       <br>
+        <th>
+          <span style="  font-size: 10px; margin-left: 10px;"> @jonathan_D</span>
+        </th>
+      </tr>
+    </table>
+  </div>
+  
+ 
+  <div style="float: right; height: 100px; width: 25;" >
+    <h3 style="color: rgb(255, 255, 255); font-weight: bold; margin-right: 100px;">Who is the Developer?</h3>
+    <p style="margin-right: 100px; font-size: 10px;">
+      The name of the developer is Jonathan, 
+      <br>He's 21 years old IT student from National University
+      <br> Currently studying several subjects and creating
+      <br> several Projects like Applications, this website
+      <br> is just a midterm project that He created for the 
+      <br> sake of his grades.
+    </p>
+  </div>
+</div>
+</footer>
+
+</body>
+</html>
